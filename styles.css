@@ -1,6 +1,8 @@
 body {
   font-family: 'Muli';
   font-size: 14px;
+  display: flex;
+  flex-direction: column;
 }
 h3{
   background-color: rgba(200, 240, 255, 0.8);
@@ -9,16 +11,57 @@ ul{
   list-style-type: none;
   margin: 0;
   padding: 0;
-  width: 200px;
+  width: 75vw;
   background-color: #f1f1f1;
 }
-li a {
+
+li {
   display: block;
   color: #000;
   padding: 8px 16px;
+}
+li a {
   text-decoration: none;
+  margin: 0;
+  padding: 0.5vw;
 }
 li a:hover {
   background-color: #555;
   color: white;
 }
+
+.flex-ul{
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-li{
+  display: flex;
+  flex-direction: row;
+}
+
+.left-title{
+  padding: 8px 16px;
+}
+
+#farmer-high {
+  width: 4vw;
+  height: 8vh;
+  /* cursor: pointer; */
+}
+
+/* #farmer-low {
+  display: none;
+  width: 4vw;
+  height: 8vh;
+  padding: 0.25vw;
+  cursor: pointer;
+}
+
+#farmer-high:hover {
+  display: none;
+}
+
+#farmer-low:hover {
+  display: block;
+} */
